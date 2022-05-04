@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            background-color: aqua;
+        }
+        .x{
+            height: 50vh;
+        }
+        .y{
+            margin: 5px;
+            
+        }
+        .m{
+            height: 30px;
+            width: 270px;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+        .btn{
+            margin: 10px;
+            background-color: white;
+            height: 30px;
+        }
+        .btn:hover{
+            background-color: antiquewhite;
+            cursor: pointer;
+        }
+    </style>
+    <title>Email</title>
+</head>
+<body>
+    
+    <div class="x">
+        <h1>EMAIL</h1>
+        <form action="/" method="post">
+
+            <div class="y">
+                <input type="email" name="sender" placeholder="Sender Email" class="m">
+            </div>
+            <div class="y">
+                <input type="password" name="password" Placeholder="Password" class="m">
+            </div>
+            <div class="y">
+                <input type="email" name="receiver" placeholder="Receiver Email" class="m">
+            </div>
+            <div class="y">
+                <input type="text" name="text" Placeholder="Text" class="m">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
